@@ -48,6 +48,7 @@ class ProductController extends Controller
             
       
         ]);
+        
         //create new product
         Product::create($request->all());
 
