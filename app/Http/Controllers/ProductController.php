@@ -45,10 +45,10 @@ class ProductController extends Controller
             'name' => 'required',
             'detail' => 'required',
             'price' => 'required',
-            
-      
+
+
         ]);
-        
+
         //create new product
         Product::create($request->all());
 
@@ -95,8 +95,8 @@ class ProductController extends Controller
             'name' => 'required',
             'detail' => 'required',
             'price' => 'required',
-            
-           
+
+
         ]);
 
         $product->update($request->all());
